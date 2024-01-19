@@ -117,7 +117,7 @@ function Offers() {
             </p>
           </motion.div>
 
-          <div className="p-10 rounded-xl md:rounded-none md:hidden text-light bg-red-600">
+          <div className="p-10 rounded-xl md:rounded-none hidden text-light bg-red-600">
             {/* <!-- img -->
           <!-- Box Header --> */}
             <div className="icon">

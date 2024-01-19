@@ -7,7 +7,7 @@ import voyage from "../../../public/digitalvoyageanimated.gif"
 
 const Footer = () => {
     return (
-        <footer className="pt-72 justify-between font-mr px-6 md:px-24 py-4 pb-8  bg-light  flex flex-col items-center text-dark">
+        <footer className="pt-24 md:pt-72 justify-between font-mr px-6 md:px-24 py-4 pb-8  bg-light  flex flex-col items-center text-dark">
             <div className="border-b flex flex-row min-w-full justify-between pb-4">
                 <div className="flex md:space-x-12 space-x-4 items-center">
                     <Image

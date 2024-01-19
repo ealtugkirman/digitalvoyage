@@ -13,12 +13,12 @@ const Herosection = () => {
       <div className="flex ml-4 md:ml-28 text-gradient space-y-4 pt-64 justify-start text-left">
         <div>
           {" "}
-          <h2 className="text-sm  md:text-lg">
+          <h2 className="text-lg md:text-lg">
             Digital Voyage is a global web design and development agency based
             in Türkiye
           </h2>
-          <h1 className="text-3xl md:text-8xl font-bold">WE ARE SIMPLY</h1>
-          <span className=" text-3xl md:text-8xl font-bold">
+          <h1 className="text-6xl md:text-8xl font-bold">WE ARE SIMPLY</h1>
+          <span className=" text-6xl md:text-8xl font-bold">
             <span>DO {""}</span>
             <TypeAnimation
               sequence={["BETTER", 1500, "FASTER", 1500,]}
@@ -29,7 +29,7 @@ const Herosection = () => {
             />
           </span>
         </div>
-        <div className=" hidden md:absolute right-24 top-52 opacity-75 w-1/3">
+        <div className="absolute right-0 md:right-24 top-52  opacity-20 md:opacity-75 w-1/3">
           <Lottie animationData={Heroani} />
         </div>
       </div>
