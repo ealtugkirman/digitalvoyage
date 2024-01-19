@@ -29,7 +29,7 @@ const Herosection = () => {
             />
           </span>
         </div>
-        <div className="absolute right-24 top-52 opacity-75 w-1/3">
+        <div className=" hidden md:absolute right-24 top-52 opacity-75 w-1/3">
           <Lottie animationData={Heroani} />
         </div>
       </div>

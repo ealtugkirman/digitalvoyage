@@ -123,7 +123,7 @@ function Offers() {
             <div className="icon">
               <AiFillEye />
             </div>
-            <p className="mt-6 text-xl font-semibold ">SYMPTOM TRACKING</p>
+            <p className="mt-6 hidden text-xl font-semibold ">SYMPTOM TRACKING</p>
             <p className="mt-6 ">
               Track and record your symptoms in the app to help monitor your
               mental health.
