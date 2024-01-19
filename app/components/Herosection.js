@@ -21,7 +21,7 @@ const Herosection = () => {
           <span className="text-8xl font-bold">
             <span>DO {""}</span>
             <TypeAnimation
-              sequence={["BETTER", 1500, "FASTER", 1500, "EFFICENT", 1500]}
+              sequence={["BETTER", 1500, "FASTER", 1500,]}
               speed={50}
               className=""
               wrapper="span"
