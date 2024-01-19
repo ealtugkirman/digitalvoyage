@@ -79,10 +79,10 @@ const Header = () => {
                 alt="altcoinvoyage.com"
               />
             </Link>
-            {/* <header className="flex flex-col items-center">
-              <p>Altcoin Voyage</p>
-              <p className="text-xs">your guide on crypro world</p>
-            </header> */}
+            <header className="flex flex-col items-center">
+              <p>DigitalVoyage.agency</p>
+              <p className="text-xs">your guide on digital world</p>
+            </header>
           </div>
           <div className=" space-x-6  mr-8 flex">
             {/* <span className="hover:scale-110 duration-500">
@@ -116,7 +116,7 @@ const Header = () => {
       </div>
       {/* Hamburger Menu */}
       <div className="flex md:flex-row items-center justify-evenly">
-        <div className="flex z-50 fixed justify-between px-8 bg-light dark:bg-dark items-center min-w-full  lg:hidden pt-20 ">
+        <div className="flex z-50 fixed justify-between px-8 bg-lightitems-center min-w-full  lg:hidden pt-20 ">
           <div className="mt-2 flex py-2 items-center text-dark dark:text-light ">
             <Link href="/">
               <Image src={Logo} width={140} height={70} alt="cognitive.com" />
@@ -141,10 +141,10 @@ const Header = () => {
         <div
           id="menu"
           ref={menuRef}
-          className="fixed font-myfont dark:bg-dark  bg-light z-30 top-0 bottom-0 left-0 flex-col text-center hidden lg:hidden w-2/3 min-h-screen py-1 pt-40 space-y-4 text-xl dark:text-light text-dark">
+          className="fixed font-ws bg-light z-30 top-0 bottom-0 left-0 flex-col text-center hidden lg:hidden w-2/3 min-h-screen py-1 pt-40 space-y-4 text-xl dark:text-light text-dark">
           <div className="absolute" />
           <div className="relative space-y-6 justify-center mx-auto flex-col flex">
-            <span>
+            {/* <span>
               <Link href="/">Home</Link>
             </span>
             <span>
@@ -155,12 +155,10 @@ const Header = () => {
             </span>
             <span>
               <Link href="/privacypolicy">Privacy Policy</Link>{" "}
-            </span>
+            </span> */}
           </div>
-          <p className="dark:text-light leading-6 text-black text-left text-sm mx-8 pt-10">
+          <p className="text-dark leading-6 text-left text-sm mx-8 pt-10">
             Your best friend on this voyage <br/>
-            Here is the best finance & crypto blog. <br />
-            Say hello to us and start to explore :)
           </p>
           <div className="flex text-dark dark:text-light text-2xl flex-row space-x-6 pt-6 justify-center">
           </div>
