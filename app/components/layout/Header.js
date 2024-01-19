@@ -68,7 +68,7 @@ const Header = () => {
     <div className="fixed z-40 top-0 w-full">
       <div
         id="navbar"
-        className={`flex   bg-light bg-opacity-70	 font-myfont flex-col py-3`}>
+        className={`flex   bg-light bg-opacity-70	 flex-col py-8`}>
         <div className="text-light mx-24 items-center justify-between hidden lg:flex flex-row ">
           <div className=" items-center space-x-4  text-2xl flex">
             <Link className="" href="/">

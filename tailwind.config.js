@@ -6,6 +6,9 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      ws: ["var(--font-ws)"],
+    },
     extend: {
       animation: {
         scroll: 'scroll 40s linear infinite',

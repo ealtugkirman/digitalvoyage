@@ -10,15 +10,15 @@ import { TypeAnimation } from "react-type-animation";
 const Herosection = () => {
   return (
     <div className="flex flex-col h-max text-dark">
-      <div className="flex ml-24 text-gradient space-y-4 pt-64 justify-start text-left">
+      <div className="flex ml-28 text-gradient space-y-4 pt-64 justify-start text-left">
         <div>
           {" "}
           <h2 className="text-lg">
             Digital Voyage is a global web design and development agency based
             in Türkiye
           </h2>
-          <h1 className="text-7xl font-bold">WE ARE SIMPLY</h1>
-          <span className="text-7xl font-bold">
+          <h1 className="text-8xl font-bold">WE ARE SIMPLY</h1>
+          <span className="text-8xl font-bold">
             <span>DO {""}</span>
             <TypeAnimation
               sequence={["BETTER", 1500, "FASTER", 1500, "EFFICENT", 1500]}
@@ -34,7 +34,7 @@ const Herosection = () => {
         </div>
       </div>
       <div className="flex mt-72 justify-between ">
-        <div className="flex text-2xl w-1/3 ml-40">
+        <div className="flex text-2xl w-1/3 ml-28">
           We build transformative digital experiences for the world's leading
           brands by blending AI, design, and technology.
         </div>
