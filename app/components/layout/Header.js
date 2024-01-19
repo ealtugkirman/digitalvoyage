@@ -68,7 +68,7 @@ const Header = () => {
     <div className="fixed z-40 top-0 w-full">
       <div
         id="navbar"
-        className={`flex   bg-light bg-opacity-70	 flex-col py-8`}>
+        className={`flex   bg-light bg-opacity-70	 flex-col py-4`}>
         <div className="text-light mx-24 items-center justify-between hidden lg:flex flex-row ">
           <div className=" items-center space-x-4  text-2xl flex">
             <Link className="" href="/">
@@ -85,28 +85,28 @@ const Header = () => {
             </header> */}
           </div>
           <div className=" space-x-6  mr-8 flex">
-            <span className="hover:scale-110 duration-500">
+            {/* <span className="hover:scale-110 duration-500">
               <Link href="/">Home</Link>
             </span>
             <span className="hover:scale-110 duration-500">
               <Link href="/categories/all">Categories</Link>
             </span>
-            {/* <span className="hover:scale-110 duration-500">
+            <span className="hover:scale-110 duration-500">
               <Link href="/latestnews">Latest News</Link>
-            </span> */}
+            </span>
             <span className="hover:scale-110 duration-500">
               <Link href="/about">About Us</Link>{" "}
             </span>
             <span className="hover:scale-110 duration-500">
               {" "}
               <Link href="/privacypolicy">Privacy Policy</Link>{" "}
-            </span>
+            </span> */}
           </div>
 
           <div className="flex flex-row text-blue-500 text-2xl items-center space-x-4  ">
            
             <div
-              className="bg-light font-semibold animation-pulse hover:scale-110 duration-500 text-lg text-dark rounded-2xl px-5 py-2"
+              className="bg-newcolor font-semibold animation-pulse hover:scale-110 duration-500 text-lg text-light rounded-2xl px-5 py-2"
               aria-label="Toggle Menu">
               <Link href="/contact">Contact</Link>
             </div>

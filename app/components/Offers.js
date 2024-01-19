@@ -16,7 +16,7 @@ function Offers() {
               initial="hidden"
               whileInView={ "show" }
               viewport={ { once: false, amount: 0.3 } } className="text-dark font-semibold text-4xl ml-24">
-        Why Our Voyage is Different
+        Why Our Voyage is Different?
       </motion.h3>
       <div className="container  mt-12 mx-auto  font-second  max-w-7xl p-2 md:p-2">
         {/* <!-- Grid Container --> */}

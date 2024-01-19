@@ -39,7 +39,7 @@ const Herosection = () => {
           brands by blending AI, design, and technology.
         </div>
         <div className=" w-1/3 text-left text-xl mr-44">
-          <Accordion variant="light" className="space-y-4"  >
+          <Accordion variant="light" className=""  >
             <AccordionItem key="1" aria-label="Accordion 1" title="Websites">
               <p>
                 A modern brand is defined by its digital presence, starting with
@@ -61,7 +61,7 @@ const Herosection = () => {
               aria-label="Accordion 3"
               title="Digital Products">
               <p>
-                Clay concentrates on designing authentic connections through the
+                Digital Voyage concentrates on designing authentic connections through the
                 use of both aesthetics and behavioral science. Our team of
                 senior UI/UX designers delivers engaging digital products that
                 help brands thrive in the modern economy.
