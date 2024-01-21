@@ -91,7 +91,7 @@ export default function ContactUs() {
     };
     return (
         <main>
-            <header className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 lg:px-40 bg-blue-900 md:h-96">
+            <header id="contact" className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 lg:px-40 bg-blue-900 md:h-96">
                 <div className="mx-auto mb-24 md:mt-20">
                     <div className="badge bg-green-500 inline-block rounded-xl">
                         <p className="font-light text-base px-4 py-1 text-gray-50">

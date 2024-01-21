@@ -1,6 +1,6 @@
-// "use client";
+ "use client";
 import React from "react";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import Logo from "../../../public/voyage.png";
 import Image from "next/image";
 import voyage from "../../../public/digitalvoyageanimated.gif"
@@ -31,25 +31,15 @@ const Footer = () => {
                 </div>
                 <rightfooter className="flex text-sm md:text-lg flex-row space-x-6 md:space-x-20">
                     <div className="relative space-y-4 justify-center    flex-col flex">
-                        <span>
-                            <Link href="/">Home</Link>
-                        </span>
                         {/* <span>
-                            <Link href="/categories/all">Categories</Link>
-                        </span>
-                        <span>
-                            <Link href="/categories/all">Latest News</Link>
+                            <Link to="navbar" smooth  className="cursor-pointer">Home</Link>
                         </span> */}
+                       
                     </div>
                     <div className="relative space-y-4 justify-center  flex-col flex">
-                        {/* <span>
-                            <Link href="/about">About Us</Link>{ " " }
-                        </span>
+                        
                         <span>
-                            <Link href="/privacypolicy">Privacy Policy</Link>{ " " }
-                        </span> */}
-                        <span>
-                            <Link href="/contact">Contact Us</Link>{ " " }
+                            <Link to="contact" smooth offset={ -150 } className="cursor-pointer">Contact Us</Link>
                         </span>
                     </div>
                 </rightfooter>

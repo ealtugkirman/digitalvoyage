@@ -12,17 +12,18 @@ import Image from "next/image";
 
 const Clients = () => {
   return (
-    <div className=" h-80 py-40 bg-light items-center">
-      <h1 className="text-dark  text-2xl font-bold opacity-50 text-center mb-12">
+    <div className=" h-80 py-40 mb-24  bg-light items-center">
+      <h1 className="text-dark  text-2xl font-bold opacity-50 text-center mb-3 md:mb-6">
         Our Clients
       </h1>
-      <Slider
+          <Slider
+              className="shadow-xl"
         width="400px"
         duration={20}
         pauseOnHover={true}
         blurBorders={false}
         blurBoderColor={"#fff"}>
-        <Slider.Slide>
+        <Slider.Slide  >
           <Image src={tecvity} alt="any" className="w-48" />
         </Slider.Slide>
         <Slider.Slide>

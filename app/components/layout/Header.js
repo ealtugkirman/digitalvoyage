@@ -1,10 +1,9 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../public/voyage.png";
-
+import { Link } from "react-scroll";
 const Header = () => {
   const btnRef = useRef(null);
   const menuRef = useRef(null);
@@ -71,17 +70,17 @@ const Header = () => {
         className={`flex   bg-light bg-opacity-70	 flex-col py-4`}>
         <div className="text-light mx-24 items-center justify-between hidden lg:flex flex-row ">
           <div className=" items-center space-x-4  text-2xl flex">
-            <Link className="" href="/">
+            <div>
               <Image
                 src={Logo}
                 width={200}
                 height={80}
                 alt="altcoinvoyage.com"
               />
-            </Link>
+            </div>
             <header className="flex flex-col items-center">
-              <p>DigitalVoyage.agency</p>
-              <p className="text-xs">your guide on digital world</p>
+              {/* <p>DigitalVoyage.agency</p>
+              <p className="text-xs">your guide on digital world</p> */}
             </header>
           </div>
           <div className=" space-x-6  mr-8 flex">
@@ -104,13 +103,14 @@ const Header = () => {
           </div>
 
           <div className="flex flex-row text-blue-500 text-2xl items-center space-x-4  ">
-           
             <div
               className="bg-newcolor font-semibold animation-pulse hover:scale-110 duration-500 text-lg text-light rounded-2xl px-5 py-2"
               aria-label="Toggle Menu">
-              <Link href="/contact">Contact</Link>
+              <Link to="contact" smooth offset={-150} className="cursor-pointer"
+              >
+                Let's Talk
+              </Link>
             </div>
-          
           </div>
         </div>
       </div>
@@ -118,13 +118,11 @@ const Header = () => {
       <div className="flex md:flex-row items-center justify-evenly">
         <div className="flex z-50 fixed justify-between px-8 bg-lightitems-center min-w-full  lg:hidden pt-20 ">
           <div className="mt-2 flex py-2 items-center text-dark dark:text-light ">
-            <Link href="/">
+            <div href="/">
               <Image src={Logo} width={140} height={70} alt="cognitive.com" />
-            </Link>
-        
+            </div>
           </div>
           <div className="lg:hidden flex items-center  space-x-6">
-         
             <button
               id="menu-btn"
               ref={btnRef}
@@ -157,11 +155,8 @@ const Header = () => {
               <Link href="/privacypolicy">Privacy Policy</Link>{" "}
             </span> */}
           </div>
-          <p className="text-dark leading-6 text-left text-sm mx-8 pt-10">
-            Your best friend on this voyage <br/>
-          </p>
-          <div className="flex text-dark dark:text-light text-2xl flex-row space-x-6 pt-6 justify-center">
-          </div>
+          <p className="text-dark leading-6 text-left text-sm mx-8 pt-10"></p>
+          <div className="flex text-dark dark:text-light text-2xl flex-row space-x-6 pt-6 justify-center"></div>
         </div>
       </div>
     </div>
