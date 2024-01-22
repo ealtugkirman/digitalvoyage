@@ -3,7 +3,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Logo from "../../../public/voyage.png";
-import { Link } from "react-scroll";
+import Link from "next/link";
+import ButtonFirst from "../elements/ButtonFirst";
 const Header = () => {
   const btnRef = useRef(null);
   const menuRef = useRef(null);
@@ -64,12 +65,12 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="fixed z-40 top-0 w-full">
+    <div className="fixed no-underline z-40 top-0 w-full">
       <div
         id="navbar"
         className={`flex   bg-light bg-opacity-70	 flex-col py-4`}>
         <div className="text-light mx-24 items-center justify-between hidden lg:flex flex-row ">
-          <div className=" items-center space-x-4  text-2xl flex">
+          <div className="items-center space-x-4  text-2xl flex">
             <div>
               <Image
                 src={Logo}
@@ -78,12 +79,8 @@ const Header = () => {
                 alt="altcoinvoyage.com"
               />
             </div>
-            <header className="flex flex-col items-center">
-              {/* <p>DigitalVoyage.agency</p>
-              <p className="text-xs">your guide on digital world</p> */}
-            </header>
           </div>
-          <div className=" space-x-6  mr-8 flex">
+          <div className=" space-x-6  text-md text-dark  ml-80 flex">
             {/* <span className="hover:scale-110 duration-500">
               <Link href="/">Home</Link>
             </span>
@@ -92,25 +89,18 @@ const Header = () => {
             </span>
             <span className="hover:scale-110 duration-500">
               <Link href="/latestnews">Latest News</Link>
-            </span>
+            </span>  
             <span className="hover:scale-110 duration-500">
-              <Link href="/about">About Us</Link>{" "}
-            </span>
-            <span className="hover:scale-110 duration-500">
-              {" "}
-              <Link href="/privacypolicy">Privacy Policy</Link>{" "}
+              <Link href="/faq">FAQ</Link>{" "}
             </span> */}
+            <span className="hover:scale-110  duration-500">
+              {" "}
+              <Link  className="no-underline" href="/web-design-process">Web Design Process</Link>{" "}
+            </span>
           </div>
 
           <div className="flex flex-row text-blue-500 text-2xl items-center space-x-4  ">
-            <div
-              className="bg-newcolor font-semibold animation-pulse hover:scale-110 duration-500 text-lg text-light rounded-2xl px-5 py-2"
-              aria-label="Toggle Menu">
-              <Link to="contact" smooth offset={-150} className="cursor-pointer"
-              >
-                Let's Talk
-              </Link>
-            </div>
+            <ButtonFirst />
           </div>
         </div>
       </div>
@@ -150,10 +140,10 @@ const Header = () => {
             </span>
             <span>
               <Link href="/about">About Us</Link>{" "}
-            </span>
-            <span>
-              <Link href="/privacypolicy">Privacy Policy</Link>{" "}
             </span> */}
+            <span>
+              <Link href="/web-design-process">Web Desing Process</Link>{" "}
+            </span> 
           </div>
           <p className="text-dark leading-6 text-left text-sm mx-8 pt-10"></p>
           <div className="flex text-dark dark:text-light text-2xl flex-row space-x-6 pt-6 justify-center"></div>
