@@ -150,6 +150,7 @@ const Header = () => {
           <div className="flex text-dark dark:text-light text-2xl flex-row space-x-6 pt-6 justify-center"></div>
         </div>
       </div>
+      
     </div>
   );
 };
