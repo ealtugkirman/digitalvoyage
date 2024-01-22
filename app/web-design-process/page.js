@@ -6,6 +6,7 @@ import wireframing from "../../public/wireframing-nedir.webp";
 import design from "../../public/design.json";
 import Lottie from "lottie-react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
+import ContactUs from "../components/ContactUs";
 
 const page = () => {
   return (
@@ -17,10 +18,10 @@ const page = () => {
         A basic outline of the web design process we would use on a mid sized
         web design project
       </h3>
-      <div className="mx-44">
+      <div className="mx-10 md:mx-44">
         <Image src={img1} width={1024} height={500} />
       </div>
-      <div id="paragraf" className="mx-52 text-wrap my-12 ">
+      <div id="paragraf" className="mx-10 md:mx-52 text-wrap my-12 ">
         <h3 className=" mb-4">An introduction to the web design process</h3>
         <div className="text-lg space-y-6 ">
           {" "}
@@ -389,13 +390,17 @@ const page = () => {
             three months to complete. It also costs more as our web designers
             will be working on your project for this length of time.
           </p>{" "}
-          <p className="" >
+          <p className="">
             This said, if you have a new web design project and you are a little
             cost-conscious but feel that the advantages of having a custom web
             design would be beneficial for you, please contact us. We can always
             send through a web design quote with costs for both options.
           </p>
         </div>
+      </div>
+      <div className="text-light pt-32">
+        {" "}
+        <ContactUs />
       </div>
     </div>
   );

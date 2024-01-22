@@ -129,7 +129,7 @@ const Header = () => {
         <div
           id="menu"
           ref={menuRef}
-          className="fixed font-ws bg-light z-30 top-0 bottom-0 left-0 flex-col text-center hidden lg:hidden w-2/3 min-h-screen py-1 pt-40 space-y-4 text-xl dark:text-light text-dark">
+          className="fixed  font-ws bg-light z-30 top-0 bottom-0 left-0 flex-col text-center hidden lg:hidden w-2/3 min-h-screen py-1 pt-40 space-y-4 text-xl text-dark">
           <div className="absolute" />
           <div className="relative space-y-6 justify-center mx-auto flex-col flex">
             {/* <span>
@@ -142,8 +142,9 @@ const Header = () => {
               <Link href="/about">About Us</Link>{" "}
             </span> */}
             <span>
-              <Link href="/web-design-process">Web Desing Process</Link>{" "}
+              <Link className="no-underline" href="/web-design-process">Web Desing Process</Link>{" "}
             </span> 
+            <ButtonFirst />
           </div>
           <p className="text-dark leading-6 text-left text-sm mx-8 pt-10"></p>
           <div className="flex text-dark dark:text-light text-2xl flex-row space-x-6 pt-6 justify-center"></div>
