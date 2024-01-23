@@ -2,7 +2,6 @@ import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "./components/layout/Header.js";
 import Footer from "./components/layout/Footer";
-
 const ws = Work_Sans({ subsets: ["latin"] });
 
 export const metadata = {

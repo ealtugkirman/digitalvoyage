@@ -71,14 +71,14 @@ const Header = () => {
         className={`flex   bg-light bg-opacity-70	 flex-col py-4`}>
         <div className="text-light mx-24 items-center justify-between hidden lg:flex flex-row ">
           <div className="items-center space-x-4  text-2xl flex">
-            <div>
+            <Link href="/" >
               <Image
                 src={Logo}
                 width={200}
                 height={80}
                 alt="altcoinvoyage.com"
               />
-            </div>
+            </Link>
           </div>
           <div className=" space-x-6  text-md text-dark  ml-80 flex">
             {/* <span className="hover:scale-110 duration-500">

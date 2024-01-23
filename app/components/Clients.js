@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const Clients = () => {
   return (
-    <div className=" h-80 py-40 mb-24  bg-light items-center">
+    <div className=" h-80 items-center">
       <h1 className="text-dark  text-2xl font-bold opacity-50 text-center mb-3 md:mb-6">
         Our Clients
       </h1>
