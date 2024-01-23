@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="bg-light h-full font-ws ">
       < Herosection />
-      <div className='' >
+      <div className='ml-12' >
         <TextCom />
       </div>
       < Clients />
